@@ -1,7 +1,12 @@
 #!/usr/bin/env ruby
 
 print "who are you asking: "
-who = gets.chomp.downcase.gsub(" ","").gsub("?","").gsub("chan","")
+who = gets.chomp.downcase
+
+to_replace = [" ", "?", "chan"]
+to_replace.each do |keyword|
+  who = who.gsub(keyword, "")
+end
 
 case who
 when "ruby", "ayumu", "shiki", "mina", "everyone"

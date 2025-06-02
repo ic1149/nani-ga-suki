@@ -24,7 +24,7 @@ e.g. for Debian ```sudo apt install ruby-full```
 ### Option 1: using ruby interpreter
 
 ```
-ruby run kurosawa.rb
+ruby kurosawa.rb
 ```
 
 ### Option 2: run as executable

@@ -19,7 +19,7 @@ Main program is "kurosawa.rb". There are two ways to run the program.
 
 please refer to the [ruby documentation](https://www.ruby-lang.org/en/documentation/installation/)
 
-e.g. for Debian ```sudo apt install ruby-full```
+e.g. for Debian `sudo apt install ruby-full`
 
 ### Option 1: using ruby interpreter
 

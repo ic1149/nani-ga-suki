@@ -27,7 +27,7 @@ while true do
         when "shiki"
           puts "cookie and cream 🍪🍨"
           puts "yorimo anata"
-        when "mina", "everyone"
+        when "minna", "everyone"
           puts "mochiron daisuki AiScReam ❤️🍨"
         end
         break
